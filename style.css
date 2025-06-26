@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    /* background-color: rgb(167, 117, 192); */
+    padding: 34px;
+    margin: 23px;
+    margin: auto;
+ 
+ 
+
+}
+
+.container h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: rgb(241, 237, 8);
+}
+
+p{
+    font-size:17px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+input,textarea{
+   
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    outline: none;
+    font-size:16px;
+    width:80%;
+    margin: 11px auto;
+    padding: 7px;
+}
+
+form{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius:  14px;
+}
+
+
+/* .ph{
+    width:100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+} */
+
+.submitMsg{
+    font-size: 25px;
+    color:rgb(86, 3, 3);
+}
+.submitMsgg{
+    font-size: 20px;
+    color:rgb(109, 188, 249);
+}
+body {
+    background-image: url("ph.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    min-height: 100vh; /* ensure it fills full height */
+     /* opacity: 0.6; */
+    /* z-index: -1; */
+}
+
+
+
