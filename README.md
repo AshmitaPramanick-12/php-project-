@@ -36,11 +36,11 @@ Files included:
 
 How to Use:
 
-1. Start Apache and MySQL from XAMPP
-2. Put this folder in htdocs (like: C:\xampp\htdocs\cwh)
-3. Import the .sql file into phpMyAdmin
-4. Open browser and go to: http://localhost/cwh/index.php
-5. Fill the form and check your database
+- Start Apache and MySQL from XAMPP
+- Put this folder inside htdocs (like: C:\xampp\htdocs\cwh)
+- Import the .sql file into phpMyAdmin
+- Open your browser and visit the project folder through localhost
+- Fill the form and check your database
 
 -------------------------------------------------------
 
@@ -48,25 +48,24 @@ How to Run This Project (Simple Steps):
 
 This project runs using XAMPP, since it's made with PHP and MySQL.
 
-Step 1: Install XAMPP from https://www.apachefriends.org/  
-         (We need Apache and MySQL both)
+Step 1: Install XAMPP from the official website  
+         (We need both Apache and MySQL)
 
 Step 2: Open XAMPP Control Panel and start Apache and MySQL
 
-Step 3: Put this project folder in:
+Step 3: Put this project folder into:  
          C:\xampp\htdocs\php-project-  
-         (you can rename the folder if needed)
+         (You can rename the folder if needed)
 
-Step 4: Open browser and go to:
-         http://localhost/phpmyadmin
+Step 4: Open your browser and go to phpMyAdmin  
+         (Usually available at localhost/phpmyadmin)
 
-Step 5: Click Import and upload the file: 127_0_0_1.sql  
-         (This creates the database)
+Step 5: Click Import and upload the file named: 127_0_0_1.sql  
+         (This will create the database)
 
-Step 6: Open browser and go to:
-         http://localhost/php-project-/index.php  
-         (The form will open)
-
+Step 6: Visit your project folder in the browser using localhost  
+         (Make sure Apache is still running)
+         
 Now you can fill the form and data will be saved to the MySQL database.
 
 -------------------------------------------------------
